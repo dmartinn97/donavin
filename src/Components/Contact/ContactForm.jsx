@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import { tablet } from "../../Helpers/Responsive";
 
@@ -21,8 +21,6 @@ const UserInput = styled.div`
   display: flex;
   flex-direction: column;
 `;
-const ErrorMessage = styled.label``;
-
 const Input = styled.input`
   width: 100%;
   border-width: 5px 0;
